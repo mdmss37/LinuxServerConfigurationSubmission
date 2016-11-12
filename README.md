@@ -1,9 +1,9 @@
 # LinuxServerConfigurationSubmission
 Repository for Udacity nanodegree
 
-1. The IP address and SSH port so your server can be accessed by the reviewer.
+#1. The IP address and SSH port so your server can be accessed by the reviewer.
 IP address is 35.162.154.29
-#Port number
+Port number
 ```
 grader@ip-10-20-63-124:~$ sudo ufw status
 Status: active
@@ -17,23 +17,26 @@ To                         Action      From
 80/tcp (v6)                ALLOW       Anywhere (v6)
 123/udp (v6)               ALLOW       Anywhere (v6)
 ```
-2. The complete URL to your hosted web application.
+#2. The complete URL to your hosted web application.
 http://ec2-35-162-154-29.us-west-2.compute.amazonaws.com/
 
-3. A summary of software you installed and configuration changes made.
-Launch your Virtual Machine with Udacity account.
-Follow the instructions provided to SSH into your server
-Create a new user named grader
-Give the grader the permission to sudo
-Update all currently installed packages
-Change the SSH port from 22 to 2200
-Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
-Configure the local timezone to UTC
-Install and configure Apache to serve a Python mod_wsgi application
-Install and configure PostgreSQL:
-Do not allow remote connections
-Create a new user named catalog that has limited permissions to your catalog application database
-4. A list of any third-party resources you made use of to complete this project.
+#3. A summary of software you installed and configuration changes made.
+1.Launch your Virtual Machine with Udacity account.
+⋅1 public IP address is 35.162.154.29
+2.Followed the instructions provided to SSH into your server
+3.Created a new user named grader
+4.Gave the grader the permission to sudo
+5.Updated all currently installed packages
+6.Changed the SSH port from 22 to 2200
+7.Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
+8.Configure the local timezone to UTC
+9.Install and configure Apache to serve a Python mod_wsgi application
+10.Install and configure PostgreSQL:
+⋅1 Do not allow remote connections
+⋅2 Create a new user named catalog that has limited permissions to your catalog application database
+11.Install git, clone and setup your Catalog App project (from your GitHub repository from earlier in the Nanodegree program) so that it functions correctly when visiting your server’s IP address in a browser. Remember to set this up appropriately so that your .git directory is not publicly accessible via a browser!
+
+#4. A list of any third-party resources you made use of to complete this project.
 
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 https://discussions.udacity.com/t/markedly-underwhelming-and-potentially-wrong-resource-list-for-p5/8587
