@@ -38,8 +38,8 @@ http://ec2-35-162-154-29.us-west-2.compute.amazonaws.com/
 11. Installed git, clone and setup Catalog App project (from GitHub repository from earlier in the Nanodegree program) so that it functions correctly when visiting your server’s IP address in a browser. 
 Remember to set this up appropriately so that your .git directory is not publicly accessible via a browser.⋅⋅
 -->
-Currently App is not correctly served in URL, but showing default apache2 page.
-Assuming configuration was wrong, under checking.
+# Currently App is not correctly served in URL, but showing default apache2 page.
+# Assuming configuration was wrong, checking root cause.
 
 #4. A list of any third-party resources you made use of to complete this project.
 
