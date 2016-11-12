@@ -23,7 +23,7 @@ http://ec2-35-162-154-29.us-west-2.compute.amazonaws.com/
 
 #3 A summary of software you installed and configuration changes made.
 1. Launch your Virtual Machine with Udacity account
-*public IP address is 35.162.154.29
+- public IP address is 35.162.154.29
 2. Followed the instructions provided to SSH into your server
 3. Created a new user named grader
 4. Gave the grader the permission to sudo
