@@ -36,10 +36,8 @@ http://ec2-35-162-154-29.us-west-2.compute.amazonaws.com/
   + Do not allow remote connections
   + Created a new user named catalog that has limited permissions to your catalog application database
 11. Installed git, clone and setup Catalog App project (from GitHub repository from earlier in the Nanodegree program) so that it functions correctly when visiting your server’s IP address in a browser. 
-Remember to set this up appropriately so that your .git directory is not publicly accessible via a browser.⋅⋅
--->
-# Currently App is not correctly served in URL, but showing default apache2 page.
-# Assuming configuration was wrong, checking root cause.
+
+#12. Currently cannot serve application properly. Assuming configuration was wrong and checking root cause. 
 
 #4. A list of any third-party resources you made use of to complete this project.
 
