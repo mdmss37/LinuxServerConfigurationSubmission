@@ -1,7 +1,7 @@
 # LinuxServerConfigurationSubmission
-Repository for Udacity nanodegree
+Repository for Udacity nanodegree submission
 
-#1. The IP address and SSH port so your server can be accessed by the reviewer.
+#1 The IP address and SSH port so your server can be accessed by the reviewer.
 1. IP address is 35.162.154.29
 2. Port number as below
 ```
@@ -18,12 +18,12 @@ To                         Action      From
 123/udp (v6)               ALLOW       Anywhere (v6)
 ```
 
-#2. The complete URL to your hosted web application.
+#2 The complete URL to your hosted web application.
 http://ec2-35-162-154-29.us-west-2.compute.amazonaws.com/
 
-#3. A summary of software you installed and configuration changes made.
+#3 A summary of software you installed and configuration changes made.
 1. Launch your Virtual Machine with Udacity account
-⋅⋅1. public IP address is 35.162.154.29
+*public IP address is 35.162.154.29
 2. Followed the instructions provided to SSH into your server
 3. Created a new user named grader
 4. Gave the grader the permission to sudo
@@ -33,15 +33,15 @@ http://ec2-35-162-154-29.us-west-2.compute.amazonaws.com/
 8. Configure the local timezone to UTC
 9. Installed and configure Apache to serve a Python mod_wsgi application
 10. Installed and configure PostgreSQL
-⋅⋅1. Do not allow remote connections
-⋅⋅2. Created a new user named catalog that has limited permissions to your catalog application database
+- Do not allow remote connections
+- Created a new user named catalog that has limited permissions to your catalog application database
 11. Installed git, clone and setup Catalog App project (from GitHub repository from earlier in the Nanodegree program) so that it functions correctly when visiting your server’s IP address in a browser. 
 Remember to set this up appropriately so that your .git directory is not publicly accessible via a browser.⋅⋅
 -->
 Currently App is not correctly served in URL, but showing default apache2 page.
 Assuming configuration was wrong, under checking.
 
-#4. A list of any third-party resources you made use of to complete this project.
+#4 A list of any third-party resources you made use of to complete this project.
 
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 https://discussions.udacity.com/t/markedly-underwhelming-and-potentially-wrong-resource-list-for-p5/8587
