@@ -22,7 +22,7 @@ To                         Action      From
 http://ec2-35-162-154-29.us-west-2.compute.amazonaws.com/
 
 #3. A summary of software you installed and configuration changes made.
-1. Launch your Virtual Machine with Udacity account.
+1. Launch your Virtual Machine with Udacity account
 ⋅⋅1. public IP address is 35.162.154.29
 2. Followed the instructions provided to SSH into your server
 3. Created a new user named grader
@@ -32,7 +32,7 @@ http://ec2-35-162-154-29.us-west-2.compute.amazonaws.com/
 7. Configured the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
 8. Configure the local timezone to UTC
 9. Installed and configure Apache to serve a Python mod_wsgi application
-10. Installed and configure PostgreSQL:
+10. Installed and configure PostgreSQL
 ⋅⋅1. Do not allow remote connections
 ⋅⋅2. Created a new user named catalog that has limited permissions to your catalog application database
 11. Installed git, clone and setup Catalog App project (from GitHub repository from earlier in the Nanodegree program) so that it functions correctly when visiting your server’s IP address in a browser. 
